@@ -22,7 +22,7 @@ class Car
         else if (Age < 5 && Insurance == true)
         {
             return "Godkänd";
-        }
+        }// If none of the above conditions are met, return a default message
         else
         {
             return "Måste kompletteras";
